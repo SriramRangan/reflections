@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+When you initialize a repository GIT creates a .git hidden folder behind the scenes. You can now start creating commits on your repository. GIT will not crate any commits by itself. You need to create a respository so that you can start creting multiple versions of this file and leverage the power of version control software.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area is the intermediate area where you can add logically related files together before a commit. It is different from a working directory since not all files in the working directory need to be in the repository and hence not needed in the staging area. It is different from repository since it is a intermediate area and does not hold multiple versions of the files like repository.
+
