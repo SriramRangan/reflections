@@ -1,0 +1,35 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+The diff tool helped find subtle bugs that are caused unintentionally which are difficult find out by just looking at them. Most of the time it is really hard to spot these errors and one could spend a lot of time breaking their head over as to what has gone wrong. Diff is a better option where in tells there is a difference in a line so that you can focus your attention there to spot the unintentional error.
+
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Having access to the history is a really useful feature especially when things go unexpectedly wrong and you want to see how the file looked prior to the change or how the file looked at a point in time. This will help save a lot of time.
+
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Pros:
+Manual commits provide more flexibility to the end user in terms of logically grouping the code and having control over the it. The user can decide what lines of code belong to one logical unit and decide the commit.
+Cons:
+User can sometimes forget to do the commit and the changes could be lost in case the system crashes for some reason.
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Commiting multiple related files together looks like a good feature as they represent a logical unit in totality. I would need to see more examples of how this actually work. There are few scenarios coming across to my mind as to how it would work? For example there could be scenario where in one CSS file is shared by multiple HTML files which represent different functionality? In this case will the CSS file be part of two different repositories meaning commit to either of the HTML files will also commit the CSS file. Need to get more examples on how to do this?
+
+
+How can you use the commands git log and git diff to view the history of files?
+git log command can be used to list all the commits that happened on the repository. Pressing the down arrow or enter shows additional commit points not currently visible on the screen. Pressing 'Q' will exit from the git log.
+git diff can be used to compare what changed between two commit ID(s). This will give an easy representation of how many lines were added, deleted or did not change etc.
+
+
+
+
+How might using version control make you more confident to make changes that could break something?
+Using version control will defintely make me more confident since I know that in case of a bug where I am breaking my head as to how it got introduced and since when, I could go to the older versions of the repository and check out the behavior that will help me the buggy code.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I want to use Git for managing versions in my Project, group logical entities in repository and make these multiple repositories talk to each other to make a complete project and leverage the power of version control tools like GIT to checkout previous versions of any repositories where I am having trouble with respect to a bug.
