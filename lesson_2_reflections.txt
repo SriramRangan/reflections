@@ -5,3 +5,17 @@ When you initialize a repository GIT creates a .git hidden folder behind the sce
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area is the intermediate area where you can add logically related files together before a commit. It is different from a working directory since not all files in the working directory need to be in the repository and hence not needed in the staging area. It is different from repository since it is a intermediate area and does not hold multiple versions of the files like repository.
 
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can add all logically related changes to the staging area and then run a commit command. This way all logical changes are grouped as part of the commit and then added to the repository.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches would create parallel tracks of work and associate the changes to the history. If there a multiple major changes going on in your repository which are not related and you do not want to break your master branch, you could create a branch for both and allow users to work on them separately but still allowing minor updates or enhancements to keep happening on the master branch. This way once the changes in the other branches are stable and tested they could later be merged.
+
+
+How do the diagrams help you visualize the branch structure?
+Diagrams are helpful to find out the commits associated with a branch and also find out which commits cannot be reached. It helps us find the reachability of a commit.
+
+
+
