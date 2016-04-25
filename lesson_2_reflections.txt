@@ -23,3 +23,8 @@ Merging of two branches results in merging the code from both the branches which
 
 
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+The advantages of automatic merging is that all non trivial merges will be taken care of without manual intervention but this could come at a cost where in same variables could have been delcared in different parts of the file by two different users. When merging this could result in compilation or run time error depending on the language being used. Manual merging is good for trivial merges where in the same lines of code have undergone changes by two different users. This gives an opportunity for the developers to talk to each other and resolve the merge conflict leaving the end state of the merged file to be a stable one but the disadvantage of having all merges which are non trivial also to be done manually might be an overkill.
+
+
+
