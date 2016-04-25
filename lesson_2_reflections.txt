@@ -18,4 +18,8 @@ How do the diagrams help you visualize the branch structure?
 Diagrams are helpful to find out the commits associated with a branch and also find out which commits cannot be reached. It helps us find the reachability of a commit.
 
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging of two branches results in merging the code from both the branches which were done independently upto the point of merge. It also ensures the commits from both branches being arranged as per the timestamp. We represent it in the diagram to find which branch introduced a particular change and also the reachability of a commit.
+
+
 
