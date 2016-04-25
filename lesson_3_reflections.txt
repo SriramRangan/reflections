@@ -1,3 +1,7 @@
 When would you want to use a remote repository rather than keeping all your work local?
       Remote repositories are a nice way of backing up your data on a remote server. This will ensure that you don't loose your work
       in the accidental event of your machine getting corrupted or crashing.
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+	Syncing changes manually gives more control to the user as to what can be synced. This will not be possible through automatic sync since unwanted changes might make it to the remote repository or non-logical changes might get into the remote when you are still working on it.
