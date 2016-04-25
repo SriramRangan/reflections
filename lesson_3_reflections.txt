@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+      Remote repositories are a nice way of backing up your data on a remote server. This will ensure that you don't loose your work
+      in the accidental event of your machine getting corrupted or crashing.
